@@ -1,0 +1,17 @@
+.red{
+    background-color: red;
+    width: 150px;
+    height: 100px;
+    margin: 50px;
+    padding: 50px;
+}
+.yellow{
+    background-color: yellow;
+    width: 150px;
+    height: 100px;
+}
+.green{
+    background-color: green;
+    width: 150px;
+    height: 100px;
+}

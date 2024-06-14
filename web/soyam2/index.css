@@ -1,0 +1,15 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+}
+.warp{
+    background-color: aqua;
+    display: flex;
+    column-gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}

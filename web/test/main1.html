@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body id="body">
+        <button onclick="changecolor()">Red</button>
+        <button onclick="changecolor1()">yellow</button>
+        <button onclick="changecolor2()">green</button>
+        <script>
+            const body= document.getElementById("body");
+            function changecolor()
+            {
+                body.style.backgroundColor="red";
+            }
+            function changecolor1()
+            {
+                body.style.backgroundColor="yellow";
+            }
+            function changecolor2()
+            {
+                body.style.backgroundColor="green";
+            }
+            setInterval(function(){
+                console.log("call back");
+                body.style.opacity=0.6;
+            },5000);
+
+        </script>
+    </body>
+</html>

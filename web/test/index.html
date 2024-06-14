@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            h1
+            {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="name">hello</h1>
+        <button onclick="sayhello()">click me</button>
+        <script>
+            const name=document.getElementById("name");
+            console.log(name);
+            function sayhello()
+            {
+                name.textContent="soyam";
+            }
+        </script>
+    </body>
+</html>
